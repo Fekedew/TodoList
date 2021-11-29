@@ -42,7 +42,7 @@ public class DoesAdapter extends RecyclerView.Adapter<DoesAdapter.MyViewHolder>{
         myViewHolder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent aa = new Intent(context,EditTaskDesk.class);
+                Intent aa = new Intent(context,EditTask.class);
                 aa.putExtra("titledoes", getTitleDoes);
                 aa.putExtra("descdoes", getDescDoes);
                 aa.putExtra("datedoes", getDateDoes);
